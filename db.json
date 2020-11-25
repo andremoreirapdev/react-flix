@@ -1,0 +1,17 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "name": "Front-end",
+      "description": "Uma categoria bacanudassa",
+      "color": "#cbd1ff"
+    },
+
+    {
+      "id": 2,
+      "name": "Back-end",
+      "description": "Outra categoria bacanudassa",
+      "color": "#7159C1"
+    }
+  ]
+}
