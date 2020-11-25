@@ -39,7 +39,9 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const BASE_URL = 'http://localhost:8080/categorias';
+    const BASE_URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://reactflixmap.herokuapp.com/categorias';
 
     fetch(BASE_URL)
       .then(async (response) => {
